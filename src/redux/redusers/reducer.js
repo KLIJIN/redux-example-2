@@ -1,6 +1,6 @@
-import { DECREASE, INCREASE, REMOVE, CLEAR_CART, GET_TOTALS } from './actions.js'
+import { DECREASE, INCREASE, REMOVE, CLEAR_CART, GET_TOTALS } from '../actions.js'
 
-import cartItems from "./cart-items.js"; // redux stuff
+import cartItems from "../../cart-items.js"; // redux stuff
 
 const initialStore = {
     cart: cartItems,
